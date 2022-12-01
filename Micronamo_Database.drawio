@@ -1,12 +1,12 @@
-<mxfile host="app.diagrams.net" modified="2022-11-30T11:13:42.340Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="1ou-7A9rClUM4vOTfb6M" version="20.6.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-12-01T08:30:01.004Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="68ad8z8qSPEszLUjBnhe" version="20.6.0" type="github">
   <diagram name="Page-1" id="2ca16b54-16f6-2749-3443-fa8db7711227">
-    <mxGraphModel dx="1483" dy="816" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
+    <mxGraphModel dx="730" dy="416" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
         <object label="" id="0">
           <mxCell />
         </object>
         <mxCell id="1" parent="0" />
-        <mxCell id="U0wANWAEz6asGpgVpq7L-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;exitX=1;exitY=0.75;exitDx=0;exitDy=0;endArrow=ERone;endFill=0;startArrow=ERoneToMany;startFill=0;" edge="1" parent="1" source="2ed32ef02a7f4228-1" target="U0wANWAEz6asGpgVpq7L-5">
+        <mxCell id="U0wANWAEz6asGpgVpq7L-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;exitX=1;exitY=0.75;exitDx=0;exitDy=0;endArrow=ERone;endFill=0;startArrow=ERoneToMany;startFill=0;" parent="1" source="2ed32ef02a7f4228-1" target="U0wANWAEz6asGpgVpq7L-5" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="365" y="145" />
@@ -14,7 +14,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="U0wANWAEz6asGpgVpq7L-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;startArrow=ERone;startFill=0;endArrow=ERzeroToMany;endFill=0;" edge="1" parent="1" source="2ed32ef02a7f4228-1" target="2ed32ef02a7f4228-5">
+        <mxCell id="U0wANWAEz6asGpgVpq7L-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;startArrow=ERone;startFill=0;endArrow=ERzeroToMany;endFill=0;" parent="1" source="2ed32ef02a7f4228-1" target="2ed32ef02a7f4228-5" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="60" y="130" />
@@ -28,10 +28,10 @@
         <mxCell id="2ed32ef02a7f4228-5" value="&lt;div style=&quot;box-sizing:border-box;width:100%;background:#e4e4e4;padding:2px;&quot;&gt;Wattage&lt;/div&gt;&lt;table style=&quot;width:100%;font-size:1em;&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;watt: SMALLINT&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;timestamp: TIMESTAMP(3)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;FK1&lt;/td&gt;&lt;td&gt;micronamoId&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12" parent="1" vertex="1">
           <mxGeometry x="110" y="250" width="220" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="U0wANWAEz6asGpgVpq7L-5" value="&lt;div style=&quot;box-sizing:border-box;width:100%;background:#e4e4e4;padding:2px;&quot;&gt;Customer&lt;/div&gt;&lt;table style=&quot;width:100%;font-size:1em;&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;PK&lt;/td&gt;&lt;td&gt;id&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;companyName: VARCHAR(45)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;companyContact: VARCHAR(45)&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;contactEmail: VARCHAR(45)&lt;br&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12" vertex="1" parent="1">
+        <mxCell id="U0wANWAEz6asGpgVpq7L-5" value="&lt;div style=&quot;box-sizing:border-box;width:100%;background:#e4e4e4;padding:2px;&quot;&gt;Customer&lt;/div&gt;&lt;table style=&quot;width:100%;font-size:1em;&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;PK&lt;/td&gt;&lt;td&gt;id&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;companyName: VARCHAR(45)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;companyContact: VARCHAR(45)&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;contactEmail: VARCHAR(45)&lt;br&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12" parent="1" vertex="1">
           <mxGeometry x="440" y="100" width="220" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="U0wANWAEz6asGpgVpq7L-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;startArrow=ERzeroToMany;startFill=0;endArrow=ERone;endFill=0;" edge="1" parent="1" source="U0wANWAEz6asGpgVpq7L-6" target="2ed32ef02a7f4228-1">
+        <mxCell id="U0wANWAEz6asGpgVpq7L-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;startArrow=ERzeroToMany;startFill=0;endArrow=ERone;endFill=0;" parent="1" source="U0wANWAEz6asGpgVpq7L-6" target="2ed32ef02a7f4228-1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="350" y="295" />
@@ -39,7 +39,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="U0wANWAEz6asGpgVpq7L-6" value="&lt;div style=&quot;box-sizing:border-box;width:100%;background:#e4e4e4;padding:2px;&quot;&gt;Error&lt;/div&gt;&lt;table style=&quot;width:100%;font-size:1em;&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;PK&lt;/td&gt;&lt;td&gt;id&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;FK1&lt;/td&gt;&lt;td&gt;micronameId&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;type: VARCHAR(45)&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; log: VARCHAR(500)" style="verticalAlign=top;align=left;overflow=fill;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12" vertex="1" parent="1">
+        <mxCell id="U0wANWAEz6asGpgVpq7L-6" value="&lt;div style=&quot;box-sizing:border-box;width:100%;background:#e4e4e4;padding:2px;&quot;&gt;Error&lt;/div&gt;&lt;table style=&quot;width:100%;font-size:1em;&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;PK&lt;/td&gt;&lt;td&gt;id&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;FK1&lt;/td&gt;&lt;td&gt;micronamoId&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;type: VARCHAR(45)&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; log: LONGTEXT" style="verticalAlign=top;align=left;overflow=fill;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12" parent="1" vertex="1">
           <mxGeometry x="440" y="245" width="220" height="100" as="geometry" />
         </mxCell>
       </root>
